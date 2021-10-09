@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Picker</title>
+    <style>
+        header{
+            width: 250px;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        #backgroundColor{
+            width: 100%;
+            height: 80vh;
+        }
+        div{
+            display: flex;
+            justify-content: space-between;
+        }
+        button{
+            width: 80px;
+        }
+        input{
+            width: 75px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <div>
+            <button id="color" >color</button>
+            <span id="demo"></span>
+        </div>
+        <div>
+            <button id="copy" >copy</button>
+            <span id="demo_copy"></span>
+        </div>
+        <div>
+            <input type="color" id="choose_color">
+            <button id='submit'>background</button>
+        </div>
+        
+    </header>
+    <span id="demo"></span>
+    <footer id="backgroundColor">
+
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
